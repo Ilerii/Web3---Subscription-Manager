@@ -1,0 +1,5 @@
+.wrapper { display: flex; gap: 8px; align-items: center; justify-content: center; }
+.input { width: 100px; padding: 6px 8px; border: 1px solid var(--border); border-radius: 8px; }
+.label { color: var(--muted-text); }
+.hint { font-size: 0.85rem; color: var(--muted-text); }
+

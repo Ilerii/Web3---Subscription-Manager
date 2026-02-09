@@ -1,0 +1,44 @@
+:root {
+  --blue-50: #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-200: #bfdbfe;
+  --blue-600: #0d76fc;
+  --blue-700: #0b65d6;
+  --text: #0b1b2b;
+  --muted-text: #385266;
+  --bg: #f8fbff;
+  --card-bg: #ffffff;
+  --border: #e6eef8;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, var(--blue-50) 0%, #ffffff 45%, var(--bg) 100%);
+}
+
+a {
+  color: var(--blue-700);
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Utility */
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,0 +1,19 @@
+.button {
+  width: 100%;
+  max-width: 240px;
+  height: 44px;
+  background: linear-gradient(180deg, var(--blue-600), var(--blue-700));
+  color: #fff;
+  border: 1px solid var(--blue-700);
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  transition: transform 0.05s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  box-shadow: 0 8px 20px rgba(13, 118, 252, 0.25);
+}
+.button:hover { filter: brightness(1.02); }
+.button:active { transform: translateY(1px); box-shadow: 0 6px 14px rgba(13,118,252,0.2); }
+.button:focus { outline: none; box-shadow: 0 0 0 3px var(--blue-200); }
+.button:disabled { opacity: 0.6; cursor: not-allowed; }
+
